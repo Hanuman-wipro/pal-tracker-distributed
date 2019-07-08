@@ -2,7 +2,7 @@ applications:
   - name: tracker-registration
     path: ./applications/registration-server/build/libs/registration-server.jar
     routes:
-      - route: registration-ramita-hanuman.cfapps.io
+      - route: registration-hanuman-pandey.cfapps.io
     instances: 1
     memory: 475M
     disk_quota: 475M
