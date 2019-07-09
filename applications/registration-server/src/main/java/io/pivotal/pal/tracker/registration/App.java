@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.util.TimeZone;
 
+
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan({

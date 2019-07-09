@@ -9,7 +9,8 @@ import org.springframework.web.client.RestOperations;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.util.TimeZone;
-
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
+@EnableCircuitBreaker
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.backlog", "io.pivotal.pal.tracker.restsupport"})
